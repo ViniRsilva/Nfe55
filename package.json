@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js --watch"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,10 @@
   "dependencies": {
     "@fastify/cors": "^11.1.0",
     "dotenv": "^17.2.2",
-    "fastify": "^5.6.0"
+    "fastify": "^5.6.0",
+    "node-sped-nfe": "^1.2.41"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
